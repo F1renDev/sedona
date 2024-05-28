@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Валентин](https://up.htmlacademy.ru/htmlcss/40/user/2265243).
-* Наставник: `Неизвестно`.
+* Наставник: [Олег Зайцев](https://htmlacademy.ru/profile/ozi).
 
 ---
 
