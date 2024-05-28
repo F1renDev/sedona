@@ -2,6 +2,7 @@
 
 * Студент: [Валентин](https://up.htmlacademy.ru/htmlcss/40/user/2265243).
 * Наставник: [Олег Зайцев](https://htmlacademy.ru/profile/ozi).
+* Сайт: [Седона](https://f1rendev.github.io/sedona/).
 
 ---
 
