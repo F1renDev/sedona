@@ -1,0 +1,32 @@
+/* .visually-hidden{
+  display: none;
+} */
+body {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  display: block;
+  width: 1211px;
+  margin: 0 auto;
+}
+.hero {
+  background-image: url("../images/index/header-background-both.jpg");
+  background-repeat: no-repeat;
+  height: 485px;
+}
+.subscribe {
+  background-image: url("../images/index/subscribtion-block.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.main-inner {
+  background-image: url("../images/catalog/catalog-background.png");
+  background-repeat: no-repeat;
+}
+.search-area {
+  background-image: url("../images/catalog/catalog-background.jpeg");
+  background-repeat: no-repeat;
+  width: 1200;
+}
