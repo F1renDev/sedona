@@ -75,6 +75,12 @@
                 />
                 <span class="visually-hidden">Главная страница</span>
               </a>
+              <img
+                src="images/catalog/hotels-right-arrow-icon.svg"
+                alt="вы сейчас на этой странице"
+                width="6"
+                height="10"
+              />
             </li>
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link"> Гостиницы </a>
@@ -165,6 +171,40 @@
                         value="apartment"
                       />
                       <span class="control-lead">Апартаменты</span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+              <fieldset class="filter-catalog-group">
+                <legend class="filter-catalog-title">Стоимость, ₽:</legend>
+                <ul class="filter-list">
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input
+                        class="field"
+                        placeholder="0"
+                        type="number"
+                        name="cost"
+                        value="0"
+                      />
+                      от
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input
+                        class="field"
+                        placeholder="9000"
+                        type="number"
+                        name="cost"
+                        value="9000"
+                      />
+                      до
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="field" type="range" name="cost" />
                     </label>
                   </li>
                 </ul>
@@ -278,7 +318,7 @@
               <span class="card-description-defenition">От 5000 ₽</span>
             </p>
             <a class="button" href="#">Подробнее</a>
-            <a class="button" href="#">В избранное</a>
+            <a class="button button-favorite favorite" href="#">В избранном</a>
 
             <p class="star">
               <span class="visually-hidden">4 звезды</span>
@@ -389,8 +429,8 @@
         </ul>
 
         <ul class="pagination">
-          <li class="pagination-item">
-            <a class="pagination-link pagination-current">1</a>
+          <li class="pagination-item pagination-current">
+            <a class="pagination-link">1</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">2</a>
@@ -401,7 +441,7 @@
           <li class="pagination-item">
             <a class="pagination-link" href="#">4</a>
           </li>
-          <li class="pagination-item">
+          <li class="pagination-item more">
             <a class="pagination-link" href="#">....</a>
           </li>
           <li class="pagination-item">
